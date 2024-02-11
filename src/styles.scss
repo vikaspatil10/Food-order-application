@@ -1,1 +1,60 @@
 /* You can add global styles to this file, and also import other style files */
+a{
+    &:active{
+        color: #b9b9b9;
+    }
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+header{
+    position:relative;
+}
+nav{
+    display: flex;
+    a{
+       
+        span{
+            color: white;
+            border-radius: 50%;
+            background-color: red;
+            padding: 0px 6px;
+            margin-left: 4px;
+        }
+    }
+}
+.container{
+    a{
+        padding: 10px;
+    }
+    border: 1px solid red;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+.menu-container{
+    position: relative;
+ &:hover{
+    .menu{
+        position: absolute;
+        display: block;
+        margin-top: 10px;
+        a{
+            display: block;
+            width: 100%;
+            background: red;
+            color: white;
+            border: 1px solid #b9b9b9;
+            &:hover{
+                border-radius: 8px;
+                border: 1px solid #888282;
+                transition: all 0.3s ease-in-out;
+            }
+        }
+    }
+ }
+}
+.menu{
+    display: none;
+}
