@@ -40,6 +40,7 @@ nav{
         position: absolute;
         display: block;
         margin-top: 10px;
+        z-index: 9;
         a{
             display: block;
             width: 100%;
@@ -58,3 +59,53 @@ nav{
 .menu{
     display: none;
 }
+.FoodMainblock{
+ &:hover{
+    .food-block{
+        opacity: 0.9;
+        img{
+            // border-radius: 4px;
+            scale: 1.05
+        }
+    }
+ }
+ .rating{
+    .p-rating .p-rating-item.p-rating-item-active .p-rating-icon{
+        color: orange;
+        width: 12px;
+    }
+    .p-rating .p-rating-item .p-rating-icon.p-icon{
+        width: 12px;
+    }
+    .p-rating{
+        gap: 0.3rem;
+    }
+ }
+}
+.food-block{
+    display: block;
+   height: 15rem;
+   img{
+    border-radius: 10px;
+   }
+}
+.fvt{
+    position: absolute;
+    top: 16px;
+
+    font-size: 24px;
+    right: 20px;
+    &.favourite{
+        color: red;
+    }
+    &.not-favourite{
+        color: white;
+    }
+}
+.price{
+    font-weight: 700;
+}
+.cooktime{
+    font-size: small;
+}
+.origins{font-size: medium;}

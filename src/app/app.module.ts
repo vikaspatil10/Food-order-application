@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderSectionComponent } from './comps/header-section/header-section.component';
 import { HomeComponent } from './comps/pages/home/home.component';
+import { RatingModule } from 'primeng/rating';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,7 @@ import { HomeComponent } from './comps/pages/home/home.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,RatingModule,FormsModule
   ],
   providers: [
     provideClientHydration()
