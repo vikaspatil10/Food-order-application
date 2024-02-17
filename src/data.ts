@@ -11,7 +11,7 @@ export const sample_food_data:food[]=[
     "stars": 4.5,
     "imageUrl": "/assets/spaghetti_carbonara.jpg",
     "origin": "Italy",
-    "cookTime": "30 minutes"
+    "cookTime": "30 min"
   },
   {
     "id": "2",
@@ -22,7 +22,7 @@ export const sample_food_data:food[]=[
     "stars": 4.2,
     "imageUrl": "/assets/chicken_tikka_masala.jpg",
     "origin": "India",
-    "cookTime": "45 minutes"
+    "cookTime": "45 min"
   },
   {
     "id": "3",
@@ -33,7 +33,7 @@ export const sample_food_data:food[]=[
     "stars": 4.8,
     "imageUrl": "/assets/sushi_rolls.jpg",
     "origin": "Japan",
-    "cookTime": "20 minutes"
+    "cookTime": "20 min"
   },
   {
     "id": "4",
@@ -44,7 +44,7 @@ export const sample_food_data:food[]=[
     "stars": 4.0,
     "imageUrl": "/assets/hamburger.jpg",
     "origin": "United States",
-    "cookTime": "15 minutes"
+    "cookTime": "15 min"
   },
   {
     "id": "5",
@@ -55,7 +55,7 @@ export const sample_food_data:food[]=[
     "stars": 4.6,
     "imageUrl": "/assets/miso_soup.jpg",
     "origin": "Japan",
-    "cookTime": "10 minutes"
+    "cookTime": "10 min"
   },
   {
     "id": "6",
@@ -66,7 +66,7 @@ export const sample_food_data:food[]=[
     "stars": 4.7,
     "imageUrl": "/assets/margherita_pizza.jpg",
     "origin": "Italy",
-    "cookTime": "25 minutes"
+    "cookTime": "25 min"
   },
   {
     "id": "7",
@@ -77,7 +77,7 @@ export const sample_food_data:food[]=[
     "stars": 4.3,
     "imageUrl": "/assets/pad_thai.jpg",
     "origin": "Thailand",
-    "cookTime": "35 minutes"
+    "cookTime": "35 min"
   },
   {
     "id": "8",
@@ -88,7 +88,7 @@ export const sample_food_data:food[]=[
     "stars": 4.4,
     "imageUrl": "/assets/tacos.jpg",
     "origin": "Mexico",
-    "cookTime": "20 minutes"
+    "cookTime": "20 min"
   },
   {
     "id": "9",
@@ -99,7 +99,7 @@ export const sample_food_data:food[]=[
     "stars": 4.1,
     "imageUrl": "/assets/caesar_salad.jpg",
     "origin": "United States",
-    "cookTime": "15 minutes"
+    "cookTime": "15 min"
   },
   {
     "id": "10",
@@ -110,7 +110,7 @@ export const sample_food_data:food[]=[
     "stars": 4.9,
     "imageUrl": "/assets/croissant.jpg",
     "origin": "France",
-    "cookTime": "30 minutes"
+    "cookTime": "30 min"
   }
 
 ]
